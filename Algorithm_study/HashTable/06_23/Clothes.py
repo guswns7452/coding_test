@@ -1,7 +1,7 @@
 # HashTable [의상]
 # https://school.programmers.co.kr/learn/courses/30/lessons/42578
 
-# 시작시간 : 21:41
+# 소요 시간 : 50분
 
 # 시도1 : 아마 Combination에서 시간 초과가 난듯.
 import itertools
