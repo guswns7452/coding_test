@@ -29,8 +29,26 @@ def solution(scoville, K):
         heapq.heappush(h, new_scoville)
         answer += 1
 
+def solution_list(scovile, k):
+    answer = 0
+    
+    while(1):
+        new_scovile = 0
+        
+        # 최소값 찾기 : O(N)
+        # index 찾기 : O(N)
+        first = scovile.pop(scovile.index(min(scovile)))
+        
+        if first >= k:
+            return answer
 
-
+        elif len(scovile) == 0: 
+            return -1
+        
+        new_scovile = first + (scovile.pop(scovile.index(min(scovile))) * 2)
+        scovile.append(new_scovile)
+        answer += 1
+        
 scoville = [1,2,3,9,10,12]
 k = 7
-print(solution(scoville, k))
+print(solution_list(scoville, k))
