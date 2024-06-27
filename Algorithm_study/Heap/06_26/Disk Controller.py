@@ -12,11 +12,14 @@ def solution(jobs):
     heap = []
     while(jobs):           
         while(jobs):      #그때그때 시간에 따라 가능한 목록을 힙에 넣고
+            print(1, jobs)
             x,y= heapq.heappop(jobs)
             if x>time:
                 heapq.heappush(jobs,[x,y])
+                print(2, jobs)
                 break
             else:
+                print(3, jobs)
                 heapq.heappush(heap,[y,x])
 
         if len(heap)==0:      #힙에 아무것도 없으면 time 증가, 있다면 pop한다
