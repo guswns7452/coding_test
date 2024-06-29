@@ -4,7 +4,6 @@
 # 소요시간 : 23분
 
 def solution(priorities, location):
-    answer = 0
     pri = 0
     count = 0
     while(1):
@@ -19,7 +18,6 @@ def solution(priorities, location):
             priorities.append(priorities.pop(0))
         
         count += 1
-    return answer
 
 priorities = [1, 1, 9, 1, 1, 1]
 location = 0
