@@ -1,7 +1,7 @@
 # Sort [알고리즘 수업 - 삽입 정렬 3]
 # https://www.acmicpc.net/problem/24053
 
-# 소요시간 : 
+# 소요시간 : 5분 
 
 import sys
 
