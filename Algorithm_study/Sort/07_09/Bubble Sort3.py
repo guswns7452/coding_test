@@ -1,5 +1,5 @@
 # Sort [알고리즘 수업 - 버블 정렬 3]
-# https://www.acmicpc.net/problem/23968
+# https://www.acmicpc.net/problem/23970
 
 # 소요시간 : 12분 
 import sys
