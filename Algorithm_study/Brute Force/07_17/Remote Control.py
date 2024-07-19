@@ -62,6 +62,7 @@ if unavil != -1:
                 top += k
                 break
         if top == now:
+            pass
         top += min_avail
     
     for _ in range(unavil+1, len(goto_list)+1):
