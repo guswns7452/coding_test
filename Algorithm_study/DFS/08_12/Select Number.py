@@ -1,4 +1,4 @@
-# DFS [영역 구하기]
+# DFS [숫자 고르기]
 # https://www.acmicpc.net/problem/2668
 
 # ⏰ 소요시간 : 70분
