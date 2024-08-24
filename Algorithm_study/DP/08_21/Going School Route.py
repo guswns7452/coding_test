@@ -1,4 +1,4 @@
-# DP [정수 삼각형]
+# DP [등굣길]
 # https://school.programmers.co.kr/learn/courses/30/lessons/42898 
 
 # ⏰ 소요시간 : 57분
